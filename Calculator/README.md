@@ -8,6 +8,7 @@ This repository includes:
 - The core ImGui source files and backends.
 - A sample calculator application that utilizes ImGui for its GUI.
 - Project files for building the application on Windows (Visual Studio project files are provided in the `calculator` directory).
+- Utility scripts to manage Windows Defender exclusions for the project directory.
 
 ## Disclaimer
 
@@ -34,3 +35,14 @@ To build and run this project, ensure your development environment includes:
 1. Open the solution or project file located in the `calculator` directory.
 2. Ensure include paths and backend configurations are correct (they are pre-configured for a basic DirectX 11 setup).
 3. Build and run the project.
+
+## Defender Exclusion Scripts
+
+For some reason Windows Defender may flag some developer-generated files or behaviors during testing. To help avoid this, I provided scripts to easily exclude or re-include the project folder from Windows Defender.
+
+### Scripts
+
+- `add_this_folder_to_exclusion.bat`: Adds the current project folder to Defender exclusions.
+- `remove_this_folder_from_exclusion.bat`: Removes the current project folder from Defender exclusions.
+
+> Administrator privileges are required for Defender exclusion changes.
