@@ -46,3 +46,8 @@ For some reason Windows Defender may flag some developer-generated files or beha
 - `remove_this_folder_from_exclusion.bat`: Removes the current project folder from Defender exclusions.
 
 > Administrator privileges are required for Defender exclusion changes.
+
+## CALCULATOR UI PREVIEW
+
+![image](https://github.com/user-attachments/assets/1d9c7a18-6eb7-41cc-9ccd-a00d1951f280)
+
